@@ -2,11 +2,11 @@
     "name": "foo",
     "version": "0.1.0",
     "dependencies": {
-        "montage": "*",
+        "montage": "git://github.com/montagejs/montage#master",
         "matte": "*"
     },
     "devDependencies": {
-        "montage-testing": "~0.1.2"
+        "montage-testing": "git://github.com/montagejs/montage-testing#master"
     },
     "exclude": [
         "run-tests.html",

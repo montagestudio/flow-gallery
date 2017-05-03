@@ -11,7 +11,7 @@ var Montage = require("montage").Montage,
     @class module:"ui/welcome.reel".Welcome
     @extends module:ui/component.Component
 */
-exports.Welcome = Montage.create(Component, /** @lends module:"ui/welcome.reel".Welcome# */ {
+exports.Welcome = Component.specialize( /** @lends module:"ui/welcome.reel".Welcome# */ {
 
     montageDescription: {
         get: function() {
